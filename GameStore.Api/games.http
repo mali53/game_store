@@ -1,4 +1,15 @@
-GET http://localhost:5174/games
+# GET http://localhost:5174/games
 
-//Get games by id
-GET http://localhost:5174/games/2
+# //Get games by id
+# GET http://localhost:5174/games/2
+
+POST http://localhost:5174/games
+Content-Type: application/json
+
+{
+    "name": "Game",
+    "genre": "Description 1",
+    "price": 10.40,
+    "releaseDate": "2020-01-01"
+}
+
